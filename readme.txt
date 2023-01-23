@@ -1,0 +1,2 @@
+Upon opening the files, you will be greeted with the index page that displays information about me
+Clicking the link will take you to a new page with a fun fact about me. Everything on the new page is displayed through JavaScript.
