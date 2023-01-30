@@ -1,0 +1,22 @@
+table{
+    border: 1px solid black;
+    padding: 0px;
+}
+
+td{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.letter{
+    background-color: white;
+}
+
+.clues{
+    background-color: white;
+    width: 400px;
+    height: 20px;
+}
