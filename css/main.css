@@ -1,0 +1,39 @@
+/* Stylesheet - Xenia DeNoyer */
+
+h1
+{
+    font-family: sans-serif;
+}
+
+h2
+{
+    font-family: sans-serif;
+}
+
+p
+{
+    font-family: sans-serif;
+}
+
+img {
+    border-width: 0px;
+}
+
+img#arrow, img#arrowImg{
+    width: 147px;
+    height: 82px;
+}
+
+#button1, #button2{
+    width: 113px;
+    height: 33px;
+}
+
+.centered{
+    text-align: center;
+}
+
+#adBanner{
+    width: 400px;
+    height: 33px;
+}
