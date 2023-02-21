@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 Assignment</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <center>
+    <div>
+        
+            <h1>Week Six Assignment</h1>
+            <p>Enter four band names and they will be listed below.</p>
+            <p>Also enjoy this little picture of Alfred at his 3rd birthday.</p>
+            <img src="/img/partyalfred.jpg" height="200px">
+      
+    </div>
+    <div id="test"></div>
+
+    <script>
+        var arrBands = [];
+
+        for (var i = 0; i < 4; i++) {
+            arrBands.push(prompt("Enter a band name:", ""));
+        }
+
+        arrBands.sort();
+
+        for (var i = 0; i < arrBands.length; i++) {
+            document.getElementById("test").innerHTML += arrBands[i] + "<BR>";
+        }
+
+        function clearList() {
+            document.getElementById("test").innerHTML = "";
+        }
+    </script>
+
+    <input type="button" value="Reset" onclick="clearList();">
+</center>
+    
+</body>
+
+</html>
