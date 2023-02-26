@@ -12,37 +12,37 @@
 
 <body>
     <center>
-    <div>
-        
+        <div>
+
             <h1>Week Six Assignment</h1>
             <p>Enter four band names and they will be listed below.</p>
             <p>Also enjoy this little picture of Alfred at his 3rd birthday.</p>
             <img src="/img/partyalfred.jpg" height="200px">
-      
-    </div>
-    <div id="test"></div>
 
-    <script>
-        var arrBands = [];
+        </div>
+        <div id="test"></div>
 
-        for (var i = 0; i < 4; i++) {
-            arrBands.push(prompt("Enter a band name:", ""));
-        }
+        <script>
+            var arrBands = [];
 
-        arrBands.sort();
+            for (var i = 0; i < 4; i++) {
+                arrBands.push(prompt("Enter a band name:", ""));
+            }
 
-        for (var i = 0; i < arrBands.length; i++) {
-            document.getElementById("test").innerHTML += arrBands[i] + "<BR>";
-        }
+            arrBands.sort();
 
-        function clearList() {
-            document.getElementById("test").innerHTML = "";
-        }
-    </script>
+            for (var i = 0; i < arrBands.length; i++) {
+                document.getElementById("test").innerHTML += arrBands[i] + "<BR>";
+            }
 
-    <input type="button" value="Reset" onclick="clearList();">
-</center>
-    
+            function clearList() {
+                document.getElementById("test").innerHTML = "";
+            }
+        </script>
+
+        <input type="button" value="Reset" onclick="clearList();">
+    </center>
+
 </body>
 
 </html>

@@ -1,0 +1,39 @@
+/* Stylesheet - Xenia DeNoyer */
+body {
+    background-color: rgb(159, 177, 201);
+    line-height: 1;
+    margin-top: 0!important;
+    position: relative;
+    margin: 0px;
+    z-index: 99;
+    width: 1000px;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+/*Adds style to the body */
+body{
+    font-size: 14pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Changes the style for the button */
+button{
+    width: 150px;
+    height: 50px;
+}
+
+form{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+/*Changes the style for the section tag */
+section{
+    background-color: rgb(170, 230, 235);
+    margin-right: 25px;
+    margin-left: 25px;
+}
