@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- Chessboard Assignment Wk 9/Checkers Assignment Wk 10 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess to Checkers</title>
+
+    <style>
+        /* Sets dimensions of the checker board */
+        #checkers{
+            width: 416px;
+            width: 416px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+        /* Configures the checker squares */
+        .square{
+            float: left;
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+        }
+
+        .black{
+            background-color: darkgray;
+        }
+
+        /* This creates a round checker piece */
+        .checker{
+            width: 45px;
+            height: 45px;
+            margin: 2.5px;
+            border-radius: 50%;
+            box-shadow: 4px 4px 4px gray;
+        }
+
+        /* This makes the checker piece ivory */
+        .checker-w{
+            background-color: ivory;
+        }
+        /* This makes the checker piece black */
+        .checker-b{
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- This span holds the value of the selected checker piece-->
+    <span id="selectedSquare" style="display: none;"></span>
+    <script src="/js/checkers.js"></script>
+    <script>
+        // Creates the checker board in all JavaScript
+        createBoard();
+    </script>
+
+</body>
+</html>
